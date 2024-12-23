@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    background-color:#fff;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+header h1 {
+    font-size: 7em;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    color: floralwhite;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header h3 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    color: floralwhite;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+header nav {
+   width: 100%;
+    
+}
+
+header nav ul {
+font-size: large;
+display: flex;
+justify-content: space-between;
+list-style: none;
+top: 90%;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+header nav ul li {
+    display: block;
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+header nav ul li a {
+    color: floralwhite;
+    text-decoration: none;
+    padding: 10px 20px;
+  
+    transition: 0.6s;
+}
+
+header nav ul li:not(.active):not(.button) a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+div h1 {
+    font-size: 5em;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 80%;
+    color: red;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div p2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+
+}
+
+div p3 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p4 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 202%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p5 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 222%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p6 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 238%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p7 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 254%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p8 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p9 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 286%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p10 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 302%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p11 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p12 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 322%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p13 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 338%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p14 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p15 { 
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align-last: center;
+    width: 150%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+
+div p16 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 362%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+div p17 { 
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align-last: auto;
+    width: 80%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 370%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    line-height: normal;
+ 
+}
+
+DIV img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300%;
+    left: 0%;
+}
